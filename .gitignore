@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+uploads/
+
+# Visual Studio Code created by default file's
+.vscode
+.DS_Store
+
+# Remove unnessary file's
+.idea
+
+.eslintrc
+
+.env
+swagger.json

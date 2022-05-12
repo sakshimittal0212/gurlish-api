@@ -1,0 +1,31 @@
+version: "2"
+services:
+  helen-node-stag: 
+    image: helen:0.0.1
+    container_name: helen-node-stag
+    restart: always
+    build: .
+    ports: 
+      - "5002:5002"
+    depends_on:
+      - helen-database-staging
+    environment:
+      - DB_HOST=helen-database-staging
+      - DB_PORT=27017
+      - DB_NAME=helen_staging
+      - DB_PROTOCOL=mongodb
+      - SERVER_HOST=0.0.0.0
+      - SERVER_PORT=5002
+      - DOMAIN_PROTOCOL=http
+      - DOMAIN_HOST=127.0.0.1
+      - DOMAIN_PORT=5002
+      - NODE_ENV=development
+      - PLATFORM=helen
+  helen-database-staging:
+    container_name: helen-database-staging
+    image: mongo:4.0
+    restart: always
+    volumes:
+      - ./db-data:/data/db
+    ports:
+      - "27019:27017"
