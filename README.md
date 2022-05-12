@@ -1,4 +1,4 @@
-# Helen Doron
+# Gurlish
 
 ## To run this project on your machine install these dependencies on your local machine(If  you have already these then ignore these steps):
 
@@ -11,7 +11,7 @@
 `node server.js`: run this command to start the node server on your local machine.
 
 After executing the above commands you will the see the output like this: 
-Mongo connected at  mongodb://127.0.0.1:27017/helen
+Mongo connected at  mongodb://127.0.0.1:27017/gurlish
 Node server running on  http://localhost:5000
 
 ##### For swagger documentation of APIs, refer this link on your browser: http://localhost:5000/documentation
@@ -26,6 +26,6 @@ First of all you've to make a copy of `.env.example` file to `.env` file under y
 **DB_PROTOCOL**: This belongs to the protocol of mongo database. Default is `mongodb`.
 **DB_HOST**: This belongs to the host of mongo database. Default is `127.0.0.1`.
 **DB_PORT**: This belongs to the port of our mongo database on which it is running. Default is `27017`.
-**DB_NAME**: This belongs to the name of our mongo database. Default is `helen`.
+**DB_NAME**: This belongs to the name of our mongo database. Default is `gurlish`.
 **NODE_ENV**: This belongs to the working enviornment of node server. Default is `development`.
-**PLATFORM**: This belongs to the platform for which we are running our server. Default is `helen`.
+**PLATFORM**: This belongs to the platform for which we are running our server. Default is `gurlish`.

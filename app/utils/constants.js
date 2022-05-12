@@ -78,7 +78,7 @@ CONSTANTS.EMAIL_SUBJECTS = {
 
 CONSTANTS.EMAIL_CONTENTS = {
   ACCOUNT_RESTORATION_EMAIL: `<p>Hello<span style="color: #3366ff;"> <strong>{{name}}</strong></span>,</p><p>Restore your account by clicking on the link<span style="color: #3366ff;"><strong></p><a href={{confirmationLink}} target="_blank">Confirm here</a><p>Regards,<br>
-  Team Helen</p>`
+  Team Gurlish</p>`
 };
 
 CONSTANTS.SOCKET_EVENTS = {

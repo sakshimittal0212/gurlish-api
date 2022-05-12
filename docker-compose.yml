@@ -1,16 +1,16 @@
 version: "2"
 services:
-  helen-node-stag: 
-    image: helen:0.0.1
-    container_name: helen-node-stag
+  gurlish-node-stag: 
+    image: gurlish:0.0.1
+    container_name: gurlish-node-stag
     restart: always
     build: .
     ports: 
       - "5002:5002"
     depends_on:
-      - helen-database-staging
+      - gurlish-database-staging
     environment:
-      - DB_HOST=helen-database-staging
+      - DB_HOST=gurlish-database-staging
       - DB_PORT=27017
       - DB_NAME=helen_staging
       - DB_PROTOCOL=mongodb
@@ -20,9 +20,9 @@ services:
       - DOMAIN_HOST=127.0.0.1
       - DOMAIN_PORT=5002
       - NODE_ENV=development
-      - PLATFORM=helen
-  helen-database-staging:
-    container_name: helen-database-staging
+      - PLATFORM=gurlish
+  gurlish-database-staging:
+    container_name: gurlish-database-staging
     image: mongo:4.0
     restart: always
     volumes:

@@ -5,10 +5,10 @@ const CONFIG = require('../../config');
  ********* independently ********
  ********************************/
 module.exports = {
-    userService: require(`./helen/userService`),
-    swagger: require(`./helen/swagger`),
-    authService: require(`./helen/authService`),
-    sessionService: require(`./helen/sessionService`),
-    socketService: require(`./helen/socketService`),
-    fileUploadService: require(`./helen/fileUploadService`)
+    userService: require(`./gurlish/userService`),
+    swagger: require(`./gurlish/swagger`),
+    authService: require(`./gurlish/authService`),
+    sessionService: require(`./gurlish/sessionService`),
+    socketService: require(`./gurlish/socketService`),
+    fileUploadService: require(`./gurlish/fileUploadService`)
 };

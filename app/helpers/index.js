@@ -5,5 +5,5 @@ const CONFIG = require('../../config');
  ********* independently ********
  ********************************/
 module.exports = {
-    responseHelper: require(`./helen/common/resHelper`) 
+    responseHelper: require(`./gurlish/common/resHelper`) 
 };

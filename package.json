@@ -1,7 +1,7 @@
 {
   "name": "demoapplication",
   "version": "1.0.0",
-  "description": "Helen Application",
+  "description": "Gurlish Application",
   "main": "server.js",
   "scripts": {
     "start": "node server",

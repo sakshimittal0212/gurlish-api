@@ -6,8 +6,8 @@ var production = require('./env/production');
 var staging = require('./env/staging');
 
 
-var PLATFORM = process.env.PLATFORM || 'helen';
-var mongoUri = 'mongodb://localhost:27017/helen';
+var PLATFORM = process.env.PLATFORM || 'gurlish';
+var mongoUri = 'mongodb://localhost:27017/gurlish';
 
 
 
@@ -50,7 +50,7 @@ var defaults = {
             secure: false,
             tls: { rejectUnauthorized: false },
         },
-        SENDER: 'Helen <helen@demo.co.in>',
+        SENDER: 'Gurlish <gurlish@demo.co.in>',
     },
     FCM: {
         API_KEY: 'FCM_API_KEY'

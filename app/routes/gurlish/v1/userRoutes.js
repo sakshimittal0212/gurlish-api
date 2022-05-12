@@ -3,7 +3,7 @@
 const { Joi } = require('../../../utils/joiUtils');
 const { USER_ROLE } = require(`../../../utils/constants`);
 //load controllers
-const { getServerResponse, loginUser, createAndUpdateUser, getGameData, uploadFile } = require(`../../../controllers/helen/userController`);
+const { getServerResponse, loginUser, createAndUpdateUser, getGameData, uploadFile } = require(`../../../controllers/gurlish/userController`);
 
 let routes = [
 	{

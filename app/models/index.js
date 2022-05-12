@@ -5,6 +5,6 @@ const CONFIG = require('../../config');
  ********* independently ********
  ********************************/
 module.exports = {
-    userModel: require(`../models/helen/userModel`),
-    versionModel: require(`../models/helen/versionModel`)
+    userModel: require(`../models/gurlish/userModel`),
+    versionModel: require(`../models/gurlish/versionModel`)
 };

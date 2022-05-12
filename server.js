@@ -55,9 +55,9 @@ const NODES = 3;
 /** Server is running here */
 async function  startNodeserver (cluster) {
   // express startup.
-  await require(`./app/startup/helen/expressStartup`)(app);
+  await require(`./app/startup/gurlish/expressStartup`)(app);
   // start socket on server
-  await require(`./app/socket/helen/socket`).connect(global.io, p2p);
+  await require(`./app/socket/gurlish/socket`).connect(global.io, p2p);
 
   server.listen(PORT, (error) => {
     if (error) {

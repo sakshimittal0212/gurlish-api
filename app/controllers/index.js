@@ -5,5 +5,5 @@ const CONFIG = require('../../config');
  ********* independently ********
  ********************************/
 module.exports = {
-    userController: require(`./helen/userController`)
+    userController: require(`./gurlish/userController`)
 };
